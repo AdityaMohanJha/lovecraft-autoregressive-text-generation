@@ -15,7 +15,7 @@ To develop, train, and compare four recurrent neural network architectures (Simp
 * **LSTM (Long Short-Term Memory):** An advanced recurrent architecture utilizing specialized gating mechanisms (forget, input, and output gates) designed to overcome vanishing gradients and successfully map long-range dependencies in stylized text.
 * **GRU (Gated Recurrent Unit):** A streamlined variation of the LSTM that merges the forget and input gates into a single update gate. It offers comparable long-term memory retention to the LSTM but is more computationally efficient and trains faster.
 
-* 
+  
 ## Execution Steps & Dependencies
 1. Attach the H.P. Lovecraft Kaggle dataset to the environment.
 2. Run the Jupyter Notebook cell-by-cell.
