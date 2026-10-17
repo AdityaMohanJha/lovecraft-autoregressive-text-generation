@@ -8,6 +8,14 @@ To develop, train, and compare four recurrent neural network architectures (Simp
 * **Source Link:** Kaggle Datasets (H. P. Lovecraft Fiction)
 * **Characteristics:** Highly stylized, Gothic vocabulary with archaic phrasing, ideal for testing contextual consistency and stylistic modeling.
 
+
+## Models Implemented
+* **Simple RNN:** A standard recurrent neural network that processes sequences step-by-step. While computationally lightweight, it struggles to maintain long-term contextual dependencies due to the vanishing gradient problem.
+* **Bidirectional RNN:** Processes sequence data in both forward and backward directions simultaneously. While highly effective for sequence classification by providing future context, its look-ahead nature creates edge cases in strict causal, next-word generation.
+* **LSTM (Long Short-Term Memory):** An advanced recurrent architecture utilizing specialized gating mechanisms (forget, input, and output gates) designed to overcome vanishing gradients and successfully map long-range dependencies in stylized text.
+* **GRU (Gated Recurrent Unit):** A streamlined variation of the LSTM that merges the forget and input gates into a single update gate. It offers comparable long-term memory retention to the LSTM but is more computationally efficient and trains faster.
+
+* 
 ## Execution Steps & Dependencies
 1. Attach the H.P. Lovecraft Kaggle dataset to the environment.
 2. Run the Jupyter Notebook cell-by-cell.
